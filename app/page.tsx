@@ -104,9 +104,9 @@ export default function Home() {
             value={sortOrder || ""}
             className="p-2 border border-gray-700 rounded bg-gray-800 text-white"
           >
-            <option value="">Без сортировки</option>
-            <option value="asc">По возрастанию</option>
-            <option value="desc">По убыванию</option>
+            <option value="">No sorting</option>
+            <option value="asc">Low to High</option>
+            <option value="desc">High to Low</option>
           </select>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
